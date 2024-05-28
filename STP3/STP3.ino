@@ -13,7 +13,7 @@
 #define BLYNK_PRINT Serial       // Enable debug printing to serial monitor
 
 // DHT sensor configuration
-#define DHTPIN 4                 // Pin where the DHT sensor is connected
+#define DHTPIN 17                 // Pin where the DHT sensor is connected
 #define DHTTYPE DHT11            // Type of DHT sensor
 DHT dht(DHTPIN, DHTTYPE);        // Create a DHT sensor object
 
